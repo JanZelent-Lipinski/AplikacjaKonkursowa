@@ -39,3 +39,5 @@ public class Config
 {
     public string? GoogleApiKey { get; set; }
 }
+//Ta klasa wykorzystuje Google Translate API do wykrywania,
+//czy dany tekst jest w języku polskim.

@@ -8,6 +8,8 @@ Dbając o czytelność kodu postanowiłem rozbić funkcjonalności na osobne kla
 
 Instrukcja:
 
+Wymagane: .NET SDK
+
 Projekt korzysta z NuGet packages:
 
 - Google.Apis.Translate.v2

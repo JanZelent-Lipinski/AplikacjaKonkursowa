@@ -26,3 +26,5 @@ public class SzyfrCezara
         return wynik;
     }
 }
+//Ta klasa przyjmuje tekst zaszyfrowany i przesuniecie jako parametry, 
+//a nastepnie odszyfrowywuje tekst

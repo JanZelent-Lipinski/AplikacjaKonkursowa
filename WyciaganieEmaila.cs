@@ -14,3 +14,4 @@ public class WyciaganieEmaila
         return "Nie znaleziono adresu email.";
     }
 }
+//Ta klasa rozpoznaje email w podanym tekście za pomocą wyrażeń regularnych.

@@ -49,8 +49,7 @@ class Program
                 {
                     sw.WriteLine("=== Odszyfrowana wiadomosc ===");
                     sw.WriteLine(wynik);
-                    sw.WriteLine($"\nEmail: {email}");
-                    sw.WriteLine($"\nData wykonania: {DateTime.Now}");
+
                 }
 
                 Console.WriteLine("\nWynik zapisano do: wynik.txt");
@@ -61,3 +60,5 @@ class Program
         Console.WriteLine("\nNie znaleziono tekstu PL.");
     }
 }
+// Punkt startowy programu. Wczytuje dane z .env, wykonuje bruteForce szyfru Cezara,
+// wykrywa polski tekst, wyciąga email i zapisuje wynik do pliku.

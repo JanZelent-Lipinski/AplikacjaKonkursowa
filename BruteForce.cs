@@ -12,3 +12,5 @@ public class BruteForce
         }
     }
 }
+// Ta klasa wykorzystuje metodę Odszyfruj z naszej klasy SzyfrCezara i zastosowuje ją dla
+// możliwych przesunięć i wyświetla wyniki.
