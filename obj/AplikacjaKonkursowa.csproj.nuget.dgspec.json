@@ -46,6 +46,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Google.Apis.Translate.v2": {
+              "target": "Package",
+              "version": "[1.68.0.875, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
