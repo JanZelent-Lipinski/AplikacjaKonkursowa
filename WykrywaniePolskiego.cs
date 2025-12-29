@@ -10,7 +10,8 @@ public class WykrywaniePolskiego
 
     public WykrywaniePolskiego()
     {
-        DotEnv.Load();
+        DotEnv.Load(new DotEnvOptions(probeForEnv: true));
+
         string? apiKey = Environment.GetEnvironmentVariable("GOOGLE_API_KEY");
 
         _service = new TranslateService(new BaseClientService.Initializer

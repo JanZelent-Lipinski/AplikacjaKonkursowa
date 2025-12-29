@@ -6,7 +6,8 @@ class Program
     static void Main()
     {
 
-        DotEnv.Load();
+        DotEnv.Load(new DotEnvOptions(probeForEnv: true));
+
         string? tekst = Environment.GetEnvironmentVariable("TEKST");
 
         if (string.IsNullOrWhiteSpace(tekst))
